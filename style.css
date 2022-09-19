@@ -1,0 +1,125 @@
+html, body 
+{
+ 
+ height: 100%;
+
+  width: 100%;
+
+}
+
+h1 , div , img{
+
+  text-align: center;
+ 
+ 
+}
+
+img{
+ 
+ width: 50vw;
+ 
+ height: 300px;
+ 
+ box-shadow: 5px 5px 5px gray;
+
+}
+
+
+@media (max-width:700px){
+ 
+ img{
+ 
+   width: 70vw;
+ 
+ height: 300px;
+  
+   box-shadow: 5px 5px 5px gray;
+
+  }
+
+}
+
+
+@media (max-width:500px){
+ 
+ img{
+  
+  width: 80vw;
+ 
+ height: 300px;
+   
+  box-shadow: 5px 5px 5px gray;
+ 
+ }
+
+}
+
+
+button{
+ 
+ width:70px;
+ 
+ height: 30px;
+  
+background: gold;
+ 
+ border: 1px solid gold;
+
+  color:white;
+
+cursor:pointer;
+}
+
+input{
+ 
+ width:200px;
+  
+height: 30px;
+
+}
+
+
+body{
+
+  background: green;
+ 
+ animation: changeBg 60s linear infinite;
+
+}
+
+
+
+@keyframes changeBg 
+{
+ 
+ 0%{
+  
+  background: green;
+ 
+ }
+ 
+ 25%{
+ 
+   background: pink;
+
+  }
+ 
+ 50%{
+   
+ background: yellow;
+ 
+ }
+  
+75%{
+   
+ background: blue;
+ 
+ }
+ 
+ 100%{
+ 
+   background: green;
+ 
+ }
+
+}
